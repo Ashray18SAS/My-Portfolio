@@ -1,9 +1,10 @@
 body {
     text-align: center;
     margin-top: 500px;
+    background-color:aquamarine;
 }
 
-#welcome {
+#Welcome {
     position: absolute;
     left: 0;
     right: 0;
@@ -17,8 +18,7 @@ body {
 }
 
 #img1 {
-    width: 250px;
-    height: 250px;
+    width: 175px;
     border-radius: 50%;
     margin-bottom: 50px;
     margin-top: 70px;
@@ -36,12 +36,22 @@ h1 {
     font-weight: bold;
 }
 
+#WWW {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#Bio {
+    padding-top: 500px;
+}
 
 p {
     font-size: 17px;
     font-family: monospace;
     font-weight: 300;
-    margin: auto
+    margin: auto;
+    max-width: 450px;
 }
 
 .Line {
@@ -49,4 +59,34 @@ p {
     background-color: black;
     width: 70px;
     margin: 25px auto;
+}
+
+#Menu {
+    font-family:sans-serif;
+    position: absolute;
+    z-index: 10;
+    list-style:none;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.Links {
+    float: left;
+    color: darkcyan;
+    padding:11px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.Links:hover {
+    background-color: ghostwhite;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.Article:hover {
+    color: dodgerblue;
+    
 }
